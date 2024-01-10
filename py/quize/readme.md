@@ -1,4 +1,4 @@
-# 資工的遊戲
+# Problem A 資工的遊戲
 --
 題目要求:比較兩陣列差異，有四種方式:
 - pop:刪除陣列最後一項
@@ -17,15 +17,24 @@
 
 找到不同的那個index後判斷如果是末項不同，就是pop或push;其他則為add或del
 
+# Problem B Keystroke
 
+暫時寫不出來QQ
 
 # Problem C 資工的美德
 
 簡單的字串處理，數陣列長度-2就是中間要填充的數字，陣列開頭就是index[0]，結尾是index[-1]
 
-# Problem E Right Coupled Numbers
+# Problem D 資工的課程
 
---
+題目要求:輸入三個數字，要你查表寫出結果
+### 題解
+別被這題一張張的圖片給唬了，這個邏輯運算就是在混淆你，AND和OR的條件根本一樣，可以一起判斷。
+
+先判斷result變數是0或1，然後把分別的結果描述成幾個if判斷式就結束了，別帶腦寫這題。最後記得如果沒有任何條件滿足要輸出**IMPOSSIBLE**。
+
+
+# Problem E Right Coupled Numbers
 
 題目要求:
 給定x，找出a,b滿足以下條件
