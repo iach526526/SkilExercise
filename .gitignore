@@ -11,3 +11,4 @@
 !*.c
 !*.gitignore
 !*.md
+!*.h
