@@ -47,7 +47,7 @@ void LinkStart(train *node)
  } 
 int main()
 {
-	printf("%輸入空間大小:");
+	printf("輸入空間大小:");
 	int space;
 	scanf("%d",&space);
 	LinkStart(Creat(space)); 
